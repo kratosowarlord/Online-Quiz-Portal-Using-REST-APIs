@@ -2,13 +2,13 @@
 
 
 
-DESCRIPTION
+# DESCRIPTION
 
 To create an online quiz portal with multiple REST APIs where users can browse different quizzes, attempt them, and find their scores and standings.
 
  
 
-Description:
+# Description:
 
 This project, which aims to create an online quiz application, is based on different REST APIs through which users can log in and take quizzes. After finishing the quiz, they can find their standing and scores based on their accurate responses.
 
@@ -18,7 +18,7 @@ Admin user
 Participants
  
 
-Project Features:
+# Project Features:
 
 Includes a RESTful Web API to perform CRUD operations on Domain objects as per requirement using Spring Boot and MySQL/Oracle database.
 The admin user has a separate API to access the admin portal, which requires authentication with the admin username and password.
@@ -40,7 +40,7 @@ Tomcat server
 MySQL
  
 
-Admin User Scenario:
+# Admin User Scenario:
 
 The admin wants to create an online quiz for the website users.
 The admin creates a set of questions along with their answers.
@@ -51,7 +51,7 @@ For creating a new quiz, the admin user enters a quizid and selects questions fr
 After adding the questions, the admin runs the API and makes the quiz available to its users.
 Once the quiz is released, website users can start taking it.
 
-Participants Scenario:
+# Participants Scenario:
 
 The user uses the register API to create an account, which provides an access token.
 After registering an account, the user logs in with the access token to take any quiz.
